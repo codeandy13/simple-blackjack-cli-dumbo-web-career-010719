@@ -37,6 +37,8 @@ def hit?(sum)
  until input == "s"  || input =="h"
    invalid_command
    prompt_user
+   input = get_user_input
+
  end
   if input == 's'
       return sum
